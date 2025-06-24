@@ -87,7 +87,7 @@
       try {
         new Function(code); // Validasi JS
         localStorage.setItem("validTeksAuto", code);
-        errorDisplay.textContent = "✅ Kode Valid & Disimpan Otomatis";
+        errorDisplay.textContent = "✅ Kode Valid";
         errorDisplay.style.color = "#00ff88";
       } catch (e) {
         errorDisplay.textContent = "❌ Error: " + e.message;
